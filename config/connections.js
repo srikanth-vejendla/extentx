@@ -87,4 +87,9 @@ module.exports.connections = {
   *                                                                          *
   ***************************************************************************/
 
+  mlabMongo: {
+    adapter: 'sails-mongo',
+    url: 'mongodb://admin:admin@ds011419.mlab.com:11419/extent'
+  }
+
 };
